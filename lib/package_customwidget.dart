@@ -10,7 +10,7 @@ class CusShowTest extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(height: 100,width: 200,color: Colors.red,
-      child: Center(child: Text(label)),),
+      child: Center(child: Text(label,style: TextStyle(color: Colors.green),)),),
     );
   }
 }
